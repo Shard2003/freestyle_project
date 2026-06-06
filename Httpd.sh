@@ -1,3 +1,3 @@
 #! /bin/bash
-dnf install -y httpd
-systemctl start --now httpd
+dnf install -y nginx
+systemctl start --now nginx
